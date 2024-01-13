@@ -30,13 +30,13 @@ Algorithms
 <img src="https://github.com/Alfred768/Alfred768-Commodity-Demand-Forecasting/raw/master/photos/6.png" width="300px"><br>
 
 ### Prophet Model
-* Prophet can incorporate forward-looking related time series into the model, so additional features were created with holiday and event information.
-* In the figures below, the actual sales (black dots), the point predictions and confidence intervals (blue lines and bands), and the test period are shown.
+* Prophet can incorporate forward-looking related time series into the model, so additional features were created with holiday and event information.<br>
+* In the figures below, the actual sales (black dots), the point predictions and confidence intervals (blue lines and bands), and the test period are shown.<br>
   <img src="https://github.com/Alfred768/Alfred768-Commodity-Demand-Forecasting/raw/master/photos/5.png" width="500px"><br>
-•	Engineered and fine-tuned prediction models such as Prophet and Light-GBM, systematically evaluating and comparing their performance. Identified the Prophet algorithm as the standout performer, showcasing superior accuracy among single models.
+•	Engineered and fine-tuned prediction models such as Prophet and Light-GBM, systematically evaluating and comparing their performance. Identified the Prophet algorithm as the standout performer, showcasing superior accuracy among single models.<br>
 ### Mixture Model
 * Applied an innovative fusion methodology, calculating an optimal coefficient through reciprocal error analysis. <br>
-<img src="https://github.com/Alfred768/Alfred768-Commodity-Demand-Forecasting/raw/master/photos/1.png" width="500px"><br>
+<img src="https://github.com/Alfred768/Alfred768-Commodity-Demand-Forecasting/raw/master/photos/1.png" width="400px"><br>
  * Apply the reciprocal error method shown above to calculate weights. This method assigns greater weights to models with smaller average relative errors to reduce the average relative error of the entire hybrid model and obtain more accurate prediction results. This led to the development of the highly effective LightGBM-Prophet fusion model for demand prediction.<br>
 
 Algorithms Performance Summary
