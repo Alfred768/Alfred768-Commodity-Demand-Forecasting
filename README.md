@@ -24,7 +24,7 @@ Algorithms
 <img src="https://github.com/Alfred768/Alfred768-Commodity-Demand-Forecasting/raw/master/photos/2.png" width="700px"><img src="https://github.com/Alfred768/Alfred768-Commodity-Demand-Forecasting/raw/master/photos/3.png" width="700px"><br>
  * On this basis, the date-related features are divided, and the mean, standard deviation, maximum value, minimum value, and Statistics such as sums. Secondly, in view of the time series in the data, the lagged characteristics of sales are constructed, including moving average, exponentially weighted moving average and statistical information of commodity sales records. The addition of these features can improve the accuracy of predictions and help machine learning algorithms learn the temporal characteristics of data.<br>
  <img src="https://github.com/Alfred768/Alfred768-Commodity-Demand-Forecasting/raw/master/photos/4.png" width="500px"><br>
- *Finally, a total of 127 model features were constructed. Feature importance characteristics are used for feature screening, and time series segmentation is used to reasonably divide the data set.<br>
+* Finally, a total of 127 model features were constructed. Feature importance characteristics are used for feature screening, and time series segmentation is used to reasonably divide the data set.<br>
 * The sales forecast for day D+1 was used recursively to predict the sales volume for day D+2 through feature engineering, and through this iterative process, 28-day test set performance was measured.<br>
  *In the figures below, the actual sales (bule lines), the predictions (yellow dotted lines).<br>
 <img src="https://github.com/Alfred768/Alfred768-Commodity-Demand-Forecasting/raw/master/photos/6.png" width="300px"><br>
