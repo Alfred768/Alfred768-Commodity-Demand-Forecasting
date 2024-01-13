@@ -41,12 +41,16 @@ Algorithms
 
 Algorithms Performance Summary
 -
+* The prediction of product sales in next three months among several models.<br>
+<img src="https://github.com/Alfred768/Alfred768-Commodity-Demand-Forecasting/raw/master/photos/7.png" width="700px"><br>
+* As a result, through comparison, it can be found that the prediction accuracy of the Mixture Model is better than that of a single model. <br>
+
 | Algorithm | sMAPE |
 | :-----: | :-----: |
 | LightGBM | 10.06% |
 | Prophet | 5.20% |
 |Mixture Model | 2.35% |
 |Moving Average | 23.64%| <br>
-* As a result, through comparison, it can be found that the prediction accuracy of the Mixture Model is better than that of a single model. <br>
+
 * In practice, retail stores can adopt the method in this article to predict future demand for goods, thereby optimizing inventory management and formulating purchasing plans, and improving business efficiency and profitability.
 
